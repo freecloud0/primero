@@ -4826,7 +4826,12 @@
 /*[ MARGIN ]
 ///////////////////////////////////////////////////////////
 */
-
+.mn-t-10{
+	margin-top: -35px!important;
+}
+.mn-t-02{
+	margin-top: -5px!important;
+}
 .m-t-0 {
 	margin-top: 0px;
 }
@@ -10337,7 +10342,9 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: bolder;
 }
 
-
+.gray-01{
+	background: #e6e6e66b!important;
+}
 .m-textplus3m {
 	font-family: Helvetica;
 	font-size: 1.4rem;
@@ -10345,6 +10352,13 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	line-height: 1.5;
 	font-weight: 500;
 	letter-spacing: 2px;
+}
+.image01-b {
+	margin: 0px;
+	padding: 0px;
+	height: 260px;
+	width: 260px;
+
 }
 
 .image01 {
@@ -10426,6 +10440,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: rgb(248, 248, 248);
 	margin-top: 4%;
 }
+/* table */
 
 .m-textplus7{
 	font-family: Helvetica;
@@ -10449,6 +10464,12 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-size: 1.1rem;
 	font-weight: bold;
 	color: black;
+}
+.m-text-g{
+	font-family: Helvetica;
+	font-size: 1.0rem;
+	font-weight: bolder;
+	color: #484747!important;
 }
 
 .m-textplus-24{
@@ -11092,20 +11113,29 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .linea-v01{
-	left: 46%;
+	position: absolute;
+	right: 40%;
 	padding: auto;
-	height: 305px;
+	height: 100%;
 	width: 4px;
 	background-color: #b6bec5;
 	text-align: center;
 	float: right;
 }
 
+.linea-cor{
+	top: 10%;
+	margin-top: 3%;
+	position: absolute;
+	height: 50%;
+	width: 4px;
+	background: white;
+}
 
 .linea02 {
 	left: 32%;
 	padding: auto;
-	height: 3px;
+	height: 1.5px;
 	width: 35%;
 	background-color: #abb0b5;
 	text-align: center;
@@ -11131,7 +11161,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	font-family: Helvetica;
 	font-size: 2rem;
 	font-weight: bolder;
-	color: #636363;
+	color: black;
 }
 .texttitulo-c {
 	font-family: Helvetica;
@@ -11180,7 +11210,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .texttitulo03 {
 	font-family: Helvetica;
 	font-size: 3rem;
-	padding-left: 10 color:white;
+	padding-left: 10 ;color:white;
 }
 .border-01{
 	
@@ -11193,6 +11223,121 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	display: block;
 	margin: auto;
 }
+/* login */
+.linea-recort{
+	outline: 2px dotted red;
+}
+.boton-l{
+
+	width:30px;
+	height:30px;
+	background-color:#67c42b;
+	margin: 5px;
+	padding-top: 6px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	font-size:10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	float:right;
+  }
+ 
+
+
+
+.mt-c-1{
+	margin-top: 90px;
+}
+.conta-r{
+background: #0071B9;
+widows: 100%;
+height: 40px;
+}
+
+#triangle-box-log {
+	height:35px;
+	flex: 1;
+	position: relative;
+  }
+  #triangle-t-log {
+  
+	background: linear-gradient(to right top, #0071B9 0%, #0071B9 50%, transparent 50%);
+   
+	 width: 50%;
+	 height: 100%;
+	 top: 0;
+	 left: 0;
+   }
+   
+   #triangle2-t-log {
+   
+	background: linear-gradient(to left top, #0071B9 0%, #0071B9 50%, transparent 50%);
+	 width: 50%;
+	 height: 100%;
+	 top: 0;
+	 left: 0;
+   }
+ 
+
+
+
+/* corbata */
+ .corbata{
+	width:100%;
+	height: 170px;
+	background: #67c42b;
+}
+  #triangle-box {
+	height:70px;
+	flex: 1;
+	position: relative;
+  }
+  
+  #triangle {
+  
+   background: linear-gradient(to right bottom, #67c42b 0%, #67c42b 50%, transparent 50%);
+  
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+  }
+  
+  #triangle2 {
+  
+   background: linear-gradient(to left bottom, #67c42b 0%, #67c42b 50%, transparent 50%);
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+  }
+
+  #triangle-t {
+  
+	background: linear-gradient(to right top, #67c42b 0%, #67c42b 50%, transparent 50%);
+   
+	 width: 50%;
+	 height: 100%;
+	 top: 0;
+	 left: 0;
+   }
+   
+   #triangle2-t {
+   
+	background: linear-gradient(to left top, #67c42b 0%, #67c42b 50%, transparent 50%);
+	 width: 50%;
+	 height: 100%;
+	 top: 0;
+	 left: 0;
+   }
+ 
+
+/* corbata */
+
+
+
+ 
 
 .container01m {
 	width: 75%;
@@ -11243,6 +11388,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	margin: auto;
 
 }
+.container-8po {
+	width: 80%;
+	display: block;
+	margin: auto;
+}
 .container08  {
 	width: 70%;
 	display: block;
@@ -11280,7 +11430,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .container12{
 	width: 100%;
 	display: block;
-	margin: auto;
+
 	background:#eaeaea;	
 
 }
@@ -11323,6 +11473,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	color: #6d6d6d;
 	font-size: 25px;
 	font-weight: 200;	
+}
+.modal{
+    position: fixed;
+    top: 10%!important;
+
 }
 
 /*
@@ -11392,12 +11547,17 @@ button.descargas {
 	-webkit-appearance: none
 }
 @media (min-width: 769px) {
-
+.ptol-8{
+	padding: 3rem!important;
+}
+.text-20-sise{
+	font-size: 20px!important;
+}
 .image05{
 		margin: 0px;
 		padding: 0px;
 		height: 500px;
-		width: 80%;
+		width: 85%;
 		display: block;
 		margin: auto;
 	
@@ -11506,9 +11666,52 @@ button.descargas {
 		margin-left: 20px;
 
 	}
+	.rows-01{
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-image: url(../image/historia/h-pre-inca.jpg); */
+        background-position: center center;
+        /* padding-top: 105px; */
+        padding-bottom: 0px;
+	}
+	.rows-02{
+        width: 100%;
+        height: 390px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-image: url(../image/historia/h-pre-inca.jpg); */
+        background-position: center center;
+        /* padding-top: 105px; */
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 768px) {
+	.rows-02{
+        width: 100%;
+        height: 120px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-image: url(../image/historia/h-pre-inca.jpg); */
+        background-position: center center;
+        /* padding-top: 105px; */
+        padding-bottom: 0px;
+    }
+	.rows-01{
+        width: 100%;
+        height: 100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-image: url(../image/historia/h-pre-inca.jpg); */
+        background-position: center center;
+        /* padding-top: 105px; */
+        padding-bottom: 0px;
+    }
+	.ptol-8{
+		padding: 1.5rem!important;
+	}
 	.visible01{
 		display: none;
 	}
@@ -12246,4 +12449,8 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 list-style:none;
 margin-left: -40px;
 margin-top:20px;
+}
+
+.b-01{
+	font-weight: bold !important;
 }

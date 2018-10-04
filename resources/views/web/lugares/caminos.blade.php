@@ -38,7 +38,8 @@
                   <!-- Card image -->
                   <div class="view overlay">
                     <div class="container">
-                        <img class="card-img-top mt-4" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
+                        <img class="w-100 mt-4" src="{{ asset('image/paisaje/p-01.png') }}" alt="Second slide">
+                        {{-- <img class="card-img-top mt-4" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap"> --}}
                          <a href="#!">
                           <div class="mask rgba-white-slight" onclick="lightbox(0)"></div>
                         </a>

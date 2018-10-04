@@ -62,12 +62,21 @@
 <br>
 <!--/.cuadro de leyendas--> 
 <div class="container10">
-  <h4 class="m-text22 align-self-center text-center"><span class="m-textplus7m">"SITIOS RURALES, LLENOS DE ENCANTO"</span> </h4>
+    <h4 class="m-text22 align-self-center text-center"><span class="m-textplus7m">
+            PRODUCTOS NATURALES Y ARTESANOS</span> 
+    </h4>
   <br>
-    <p class="m-text12 align-self-center text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  ¡VIVE UNA EXPERIENCIA UNICA!.
+    <p class="m-text12 align-self-center text-center">
+            El Distrito de Vitis destaca principlamente por sus productos naturales agroalimentarios
+            como: queso, leche, oca, mashua, etc. y por contar con muchas piscigranjas de truchas 
+            de primera calidad que podrás encontrar, en el camino hacia el poblado.
+            ¡ Auténtico sabor vitisino ! 
+            
     </p>
     <br>
-    <p class="m-text12 align-self-center text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ¡VIVE UNA EXPERIENCIA UNICA!.
+    <p class="m-text12 align-self-center text-center">
+            Cabe destacar los productos totalmente naturales cultivados en nuestro valle fértil y 
+            también la  textilería en sus mantas coloridas
     </p>
 </div>
                    
@@ -81,7 +90,7 @@
 <h4 class="m-text22 align-self-center text-center"> <span class="m-textplus7m">HOTEL Y CASAS RURALES EN VITIS</span> </h4>
 <br>
 <div class="container">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15607.21699285121!2d-75.2156672!3d-12.056985599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1524698596607" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3674.4488502682766!2d-75.25356818047356!3d-12.044431718313927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2spe!4v1538517675070" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 </div>
 <!--/.Mapa de google maps-->
@@ -91,7 +100,7 @@
 
 <!--Table-->
 <div class="container">
-   <p class="m-text22 align-self-center text-center"><span class="m-textplus7m">LISTA DE ALOJAMIENTO RURALES</span></p>
+   <p class="m-text22 align-self-center text-center"><span class="m-textplus7m">LISTA DE SITIOS DE VENTA</span></p>
   <br>
   <br>
   <table class="table table-striped">

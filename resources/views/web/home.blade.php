@@ -22,22 +22,26 @@
               
                     <h2 class="m-textplus11m animated fadeInUp">“Hermosa tierra de los AYLLUS”</h2>
 
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
-                    </button>
+                    <a href="{{ url('gestion') }}">
+                      <button type="button" class="boton btn-outline-slider" >
+                        <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('comida') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('hospedaje') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('lugares') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
                   </div>
               </div>
               <!--Second slide-->
@@ -52,21 +56,26 @@
                   
                     <h2 class="m-textplus11m animated fadeInUp">Turisticos</h2>
 
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
-                    </button>
+                    <a href="{{ url('gestion') }}">
+                      <button type="button" class="boton btn-outline-slider" >
+                        <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('comida') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('hospedaje') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('lugares') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
                 </div>
                   
               </div>
@@ -82,22 +91,27 @@
                       <h1 class="m-textplus11 animated fadeInDown" >DELICIOSOS PLATOS</h1>
                     
                     <h2 class="m-textplus11m animated fadeInUp">Tipicos</h2>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
-                    </button>
-
-                    <button type="button" class="boton btn-outline-slider">
-                      <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
-                    </button>
+                   
+                    <a href="{{ url('gestion') }}">
+                      <button type="button" class="boton btn-outline-slider" >
+                        <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('comida') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('hospedaje') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
+                    <a href="{{ url('lugares') }}">
+                      <button type="button" class="boton btn-outline-slider">
+                        <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                      </button>
+                    </a>
                 </div>
                   
               </div>
@@ -164,9 +178,6 @@
       
 
 
-
-
-
         
         <!--/.footer azul -->
     <br>
@@ -175,18 +186,9 @@
   
   
   <section class="shipping bgwhite p-t-0 p-b-0">
-    <div class=" flex-w p-l-15 p-r-15">
-      <div class="visible01 flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
-        <h4 class="m-text12 t-center">
-          Free Delivery Worldwide
-        </h4>
 
-        <a href="#" class="s-text11 t-center">
-          Click here for more info
-        </a>
-      </div>
 
-      <div class="visible01 flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 bo2 respon2">
+      <div class="visible01 text-center  respon2">
         <span class="m-text22 t-center">
           Conoce las maravillas de
         </span>
@@ -195,22 +197,14 @@
         </p>
 
         <span class="s-text11 t-center">
-          <a href="#" </a>
-            <button type="button" class=" hov1 trans-0-4 btn btn-verde  bt-large01">Aquí</button>
+          <a href="#">
+            <button type="button" class=" hov1 trans-0-4 btn btn-verde btn-sm  bt-large01">Aquí</button>
           </a>
 
         </span>
       </div>
 
-      <div class="visible01 flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
-        <h4 class="m-text12 t-center">
-          Store Opening
-        </h4>
 
-        <span class="s-text11 t-center">
-          flora y fauna
-        </span>
-      </div>
     </div>
   </section>
 
@@ -250,7 +244,7 @@
           <div class="gal-center t-center">
             <h3 class="h2-responsive  ">HOSPEDAJE </h3>  
             <h5 class="h5-responsive">para darse un relax</h5>
-            <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
+            <a href="{{ url('hospedaje') }}"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
             </div>
         </div>
       </div>
@@ -262,7 +256,7 @@
           <div class="gal-center t-center">
             <h3 class="h2-responsive  ">GASTRONOMÍA</h3>
             <h5 class="h5-responsive">la mejor del lugar</h5>
-            <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>  
+            <a href="{{ url('comida') }}"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>  
           </div>
         </div>
       </div>
@@ -275,7 +269,7 @@
           <div class="gal-center t-center">
             <h3 class="h2-responsive  ">COMPRAS</h3>
             <h5 class="h5-responsive">que llevar a casa</h5>
-            <a href="#">
+            <a href="{{ url('productos') }}">
               <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
             </a>
     
@@ -292,7 +286,7 @@
           <div class="gal-center t-center">
             <h3 class="h2-responsive  ">GALERÍA</h3>
             <h5 class="h5-responsive">tus mejores recuerdos</h5>
-            <a href="#">
+            <a href="{{ url('galeria') }}">
               <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
             </a>
     
@@ -308,7 +302,7 @@
           <div class="gal-center t-center">
             <h3 class="h2-responsive  ">SITIOS DE INTERÉS</h3>
             <h5 class="h5-responsive">donde ir</h5>
-            <a href="#">
+            <a href="{{ url('lugares') }}">
               <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
             </a>
     
@@ -325,7 +319,7 @@
           <div class="gal-center t-center">
             <h3 class="h2-responsive  ">COSTUMBRES</h3>
             <h5 class="h5-responsive">Fiestas y Tradiciones</h5>
-            <a href="#">
+            <a href="{{ url('costumbre') }}">
               <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
             </a>
     
@@ -485,12 +479,12 @@
     <div class="flex-col-c-m p-l-15 p-r-15">
       <div class="visible01">
         <h3 class="l-text1 fs-35-sm">
-          ¡ disfruta VITIS !
+          ¡ Disfruta ... VITIS !
         </h3>
       </div>
         
       <div class="visible l-text1 fs-20-sm">
-        ¡ disfruta VITIS!
+        ¡ Disfruta  ... VITIS!
       </div>
     </div>
   </div>

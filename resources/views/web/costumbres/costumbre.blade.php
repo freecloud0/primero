@@ -6,35 +6,31 @@
 
 <div class="container">
 	<!-- Projects section v.3 -->
-	<section class="my-5">
-
+	<section class="my-5 container-8po">
 	  <!-- Section heading -->
 
 				<!-- Grid row -->
-				<div class="row">
+				<div class="row ">
 
 					    <!-- Grid column -->
 					    <div class="col-lg-5 mb-lg-0 mb-5">
 					      <!--Image-->
-					      
-					      	<div class="view">
-							    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
+					      <div class="view">
+									<br>
+							    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="rows-02" alt="placeholder">
 							     <a>
-				                   <li data-toggle="modal" onclick="lightbox(0)" class="active"><div class="mask rgba-white-slight" ></div></li>
-				                  </a>
-				              
-
+											<li data-toggle="modal" onclick="lightbox(0)" class="active"><div class="mask rgba-white-slight" ></div></li>
+										</a>     
+								</div>  
+					    </div>
+							<!-- Grid column -->
+							<div class="col-lg-2">
+									<div class="linea-v01 visible01 "></div>
 							</div>
 
-										
-
-
-				                
-					    </div>
+					    
 					    <!-- Grid column -->
-					    <div class="linea-v01 visible01 m-l-95"></div>
-					    <!-- Grid column -->
-					    <div class="col-lg-6">
+					    <div class="col-lg-5">
 
 					      <!-- Grid row -->
 					      <div class="row  mb-3">
@@ -50,7 +46,7 @@
 					           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					           <br>
-							    <a href="#" class="btn btn-verde btn-sm redondear mt-4 ">Button</a>
+							    <a href="https://www.google.com/drive/" target="_blank"  class="btn btn-verde btn-sm redondear mt-4 ">Button</a>
 
 					  			<!-- Section description -->
 					        </div>
@@ -62,17 +58,13 @@
 				</div>
 				<!-- Grid row -->
 
-
 	 <hr class="my-5"> <!----division --->
-
-
-
 
 				 <!-- Grid row -->
 				<div class="row">
 
 					    <!-- Grid column -->
-					    <div class="col-lg-6">
+					    <div class="col-lg-5">
 
 					      <!-- Grid row -->
 					      <div class="row  mb-3">
@@ -88,7 +80,7 @@
 					           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					           <br>
-							    <a href="#" class="btn btn-verde btn-sm redondear mt-4 ">Button</a>
+							    <a href="https://www.google.com/drive/" target="_blank" class="btn btn-verde btn-sm redondear mt-4 ">Button</a>
 								
 					  			<!-- Section description -->
 					        </div>
@@ -96,12 +88,16 @@
 
 					    </div>
 					    <!-- Grid column -->
-					    <div class="linea-v01 visible01 m-r-95"></div>
+					    <div class="col-lg-2">
+									<div class="linea-v01 visible01 "></div>
+							</div>
+
 					    <!-- Grid column -->
 					    <div class="col-lg-5">
 					      <!--Image-->
 					      <div class="view">
-					      	<img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" alt="Sample project image" class="img-fluid rounded z-depth-1">
+										<br>
+					      	<img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" alt="Sample project image" class="rows-02">
 					      			<a>
 				                   <li data-toggle="modal" onclick="lightbox(2)" class="active"><div class="mask rgba-white-slight" ></div></li>
 				                  </a>
@@ -124,23 +120,23 @@
 					      <!--Image-->
 					      
 					      	<div class="view">
-							    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
+											<br>
+							    <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="rows-02" alt="placeholder">
 							     <a>
 				                   <li data-toggle="modal" onclick="lightbox(0)" class="active"><div class="mask rgba-white-slight" ></div></li>
 				                  </a>
-				              
 
 							</div>
 
-										
-
-
-				                
+		    
 					    </div>
 					    <!-- Grid column -->
-					    <div class="linea-v01 visible01 m-l-95"></div>
+					    <div class="col-lg-2">
+									<div class="linea-v01 visible01 "></div>
+							</div>
+
 					    <!-- Grid column -->
-					    <div class="col-lg-6">
+					    <div class="col-lg-5">
 
 					      <!-- Grid row -->
 					      <div class="row  mb-3">
@@ -156,7 +152,7 @@
 					           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					           <br>
-							    <a href="#" class="btn btn-verde btn-sm redondear mt-4 ">Button</a>
+							    <a href="https://www.google.com/drive/" target="_blank" class="btn btn-verde btn-sm redondear mt-4 ">Button</a>
 
 					  			<!-- Section description -->
 					        </div>
@@ -168,7 +164,6 @@
 				</div>
 				<!-- Grid row -->
 
-
 	 <hr class="my-5"> <!----division --->
 
 
@@ -178,7 +173,7 @@
 				<div class="row">
 
 					    <!-- Grid column -->
-					    <div class="col-lg-6">
+					    <div class="col-lg-5">
 
 					      <!-- Grid row -->
 					      <div class="row  mb-3">
@@ -194,20 +189,22 @@
 					           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					           <br>
-							    <a href="#" class="btn btn-verde btn-sm redondear mt-4 ">Button</a>
+							    <a href="https://www.google.com/drive/" target="_blank" class="btn btn-verde btn-sm redondear mt-4 ">Button</a>
 								
 					  			<!-- Section description -->
 					        </div>
 					      </div>
 
 					    </div>
-					    <!-- Grid column -->
-					    <div class="linea-v01 visible01 m-r-95"></div>
+					    <div class="col-lg-2">
+									<div class="linea-v01 visible01 "></div>
+							</div>
 					    <!-- Grid column -->
 					    <div class="col-lg-5">
 					      <!--Image-->
 					      <div class="view">
-					      	<img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" alt="Sample project image" class="img-fluid rounded z-depth-1">
+										<br>
+					      	<img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" alt="Sample project image" class="rows-02">
 					      			<a>
 				                   <li data-toggle="modal" onclick="lightbox(2)" class="active"><div class="mask rgba-white-slight" ></div></li>
 				                  </a>

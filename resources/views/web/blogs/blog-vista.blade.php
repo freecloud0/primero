@@ -34,17 +34,26 @@
 	<div class=" align-self-center text-center"> 
 		<p class="texttitulo-b">¿Te ha gustado? Compártelo o comenta</p>
 
-      <div class="text-center mt-4">
-        <a href="#" class="text-white fa fa-facebook-square fa-2x indigo-text mr-4"></a>
-        <a href="#" class="text-white fa fa-google-plus fa-2x red-text"></a>
-        <a href="#" class="text-white fa fa fa-instagram fa-2x green-text ml-4"></a>
-      </div>
-      <div class="linea02 mt-4"></div>
-      <br>
-      	<div class="text-center mt-4">
-      		<li class="list-inline-item pr-2 esp-02"><a href=""><i class=" fa fa-thumbs-up" aria-hidden="true"></i></a>15</li>
+		<div class="div my-4">
+				<i class="fa fa-facebook indigo-text text-20-sise" aria-hidden="true"></i>
+				<i class="fa fa-google-plus mr-2 ml-4 red-text text-20-sise" aria-hidden="true"></i>
+				<i class="fa fa-instagram pink-text mr-4 ml-2 text-20-sise" aria-hidden="true"></i>
+				<i class="fa fa-share-alt orange-text text-20-sise" aria-hidden="true"></i>
+		</div>
 
-			<li class="list-inline-item pr-2"><a href=""><i class=" fa fa-comments-o" aria-hidden="true"></i></a>12</li>
+
+      <div class="linea02"></div>
+      <br>
+      	<div class="text-center mt-2">
+      		<li class="list-inline-item pr-4 esp-02">
+					  <i class=" fa fa-thumbs-up mr-2 text-20-sise" aria-hidden="true"></i>
+				  15
+			</li>
+
+			<li class="list-inline-item ">
+				<i class=" fa fa-comments-o mr-2 text-20-sise" aria-hidden="true"></i>
+				12
+			</li>
       	</div>
       
       <div class="linea02 mt-4"></div>
@@ -64,7 +73,7 @@
         		<div class="col-8 ">
         			<div class="m-l-50">
         				<p class="mb-4">Dejar un comentario</p>
-		        	<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+		        	<textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
 		        	<button type="button" class="btn btn-blue-grey mt-4">Responder</button>
         			</div>
         			
@@ -76,12 +85,13 @@
 <br><br>
 	
 
-	
-
-
-
-
-
-
+{{-- <div class="corbata d-flex flex-row">
+	<div class="triangulo_inf"></div>
+		<div class="triangulo_top_right"></div>
+		<div class="triangulo_top_left"></div>
+</div> --}}
+	{{-- <div class="corbata">
+			<div class="outer"></div>
+	</div> --}}
 
 @endsection

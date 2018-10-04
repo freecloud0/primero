@@ -53,3 +53,48 @@ $(this).addClass("active");
 
 /////////////////////////////////////
 
+$(document).ready(function () {
+    (function ($) {
+        $('#noti').click(function () {
+
+              var rex = new RegExp("Noticias", 'i');
+              $('#buscar #busca-tra').hide();
+              $('#buscar #busca-tra ').filter(function () {
+                  return rex.test($(this).text());
+              }).show();
+
+        })
+    }(jQuery));
+});  
+
+
+
+$(document).ready(function () {
+    (function ($) {
+        $('#todoC').click(function () {
+
+              var rex = new RegExp("seguir", 'i');
+              $('#buscar #busca-tra').hide();
+              $('#buscar #busca-tra ').filter(function () {
+                  return rex.test($(this).text());
+              }).show();
+
+        })
+    }(jQuery));
+});  
+
+$(document).ready(function () {
+    (function ($) {
+        $('#tipC').click(function () {
+
+              var rex = new RegExp("Tips", 'i');
+              $('#buscar #busca-tra').hide();
+              $('#buscar #busca-tra ').filter(function () {
+                  return rex.test($(this).text());
+              }).show();
+
+        })
+    }(jQuery));
+});  
+
+

@@ -7,9 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/icons/favicon.png" />
-
+{{-- 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('css/mdb.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('css/mdb.min.css') }}" rel="stylesheet" type="text/css" /> --}}
+    <link href="{{ asset('/css/mdb.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
    
     <!-----Modificaciones iportantes------>
     <link rel="stylesheet" href="{{ asset('css/util.css') }}">
@@ -115,16 +117,80 @@
         </ul>
       </nav>
     </div>
+    <style>
+      .posit{
+        position: absolute;
+        right: 5px;
+        top: 25px;
+      }
+    </style>
     <!-- Header Icon -->
-    <div class="header-icons align-self-center">
+    <div class="header-icons posit" style="">
       <a href="#" class="header-wrapicon1 dis-block">
         <button type="button" class="btn btn-verde btn-sm ">Registar</button>
       </a>
       <div class="header-wrapicon2">
-        <button type="button" class="btn btn-verde btn-sm">Login</button>
+        <button type="button" class="btn btn-verde btn-sm" data-toggle="modal" data-target="#modalLoginForm">Login</button>
       </div>
+
+      
+
+
     </div>
   </div>
+  {{-- modal --}}
+  <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header text-center">
+                  
+                  
+                  
+                  <div class="view">
+                      <img class="rows-01" src="{{ asset('image/login/login.png') }}" alt="Second slide">
+                      <div class="mask ">
+                          <a href="">
+                              <div class="boton-l" data-dismiss="modal" aria-label="Close">
+                                <span class="white-text">x</span>
+                              </div>
+                            </a>
+                            
+                            <div class="mt-c-1 ">
+                                <div id="triangle-box-log" class="d-flex flex-row">
+                                  <div id="triangle-t-log"></div>
+                                  <div id="triangle2-t-log"></div>
+                                </div>
+                                <div class="conta-r white-text">
+                                  LOGIN
+                                </div>
+                            </div>
+                      </div>
+                  </div>
+                  
+              </div>
+              <div class="modal-body mx-3">
+                
+                  <div class="md-form mb-5">
+                      <i class="fa fa-envelope prefix grey-text"></i>
+                      <input type="email" id="defaultForm-email" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                  </div>
+
+                  <div class="md-form mb-4">
+                      <i class="fa fa-lock prefix grey-text"></i>
+                      <input type="password" id="defaultForm-pass" class="form-control validate">
+                      <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                  </div>
+
+              </div>
+              <div class="modal-footer d-flex justify-content-center">
+                  <button class="btn btn-verde btn-sm">Acceder</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
   <!-- top menu -->    
     <nav class="navbar-expand-md navbar-dark bg0 d-none d-sm-block" style="width: 100%; height: 4%;">
       <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -164,7 +230,7 @@
           <!--  -->
           <button type="button" class="btn btn-verde btn-sm">Registar</button>
           <span class="linedivide1"></span>
-          <button type="button" class="btn btn-verde btn-sm">Login</button>
+          <button type="button" class="btn btn-verde btn-sm" data-toggle="modal" data-target="#modalLoginForm" >Login</button>
           <!-- Header cart noti -->
         </div>
       </div>
@@ -293,7 +359,7 @@
                   <a href="{{ url('comida') }}">Comida</a>
                 </li>
                 <li>
-                  <a href="{{ url('compras') }}">Compras</a>
+                  <a href="{{ url('productos') }}">Compras</a>
                 </li>
                 <li>
                   <a href="{{ url('lugares') }}">Sitios de interes</a>
@@ -349,29 +415,18 @@
         </nav>
       </div>
   </header>
-   <!-- Fin Header 2-->
-    <!-- Slide1 -->    
-<!--Carousel Wrapper-->
-<!--/.Carousel Wrapper-->                  
-    <!-- Sliders -->
+
 
 
 
 @yield('content')
 
 
- <!-- Fin Header 2-->
-    <!-- Slide1 -->    
-<!--Carousel Wrapper-->
-<!--/.Carousel Wrapper-->                  
-    <!-- Sliders -->
-
-
 
 
   <!-- corbata verde  -->
 
-   <div class="containe02 bg500 text-light text-center">
+   <div class="containe02 bg500 text-light text-center visible">
 
     <div class="container">
       
@@ -414,7 +469,66 @@
         </div>   
     </div> 
   </div>
+ <!-- corbata verde  -->
+ 
+  <div class="visible01">
+      <div id='container-tri '>
+          <div id="triangle-box" class="d-flex flex-row">
+            <div id="triangle-t"></div>
+            <div id="triangle2-t"></div>
+          </div>
+      </div>
+      
+      <div class="corbata">
+          
+              <div class="row ">
+                <div class="col-5 text-center">
+                  
+                  <div class="textoiz">
+                    <h2 class="m-textplus6">Blog</h2>
+                    <div class="row">
+                      <div class="col-3"></div>
+                      <div class="col-sm-6">
+                      <p class="m-textplus3m">Tips de turismo</p>
+                      <p class="m-textplus3m">y algo más</p>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="visible">
+                     <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+                  </div>
+
+                </div>
+                <div class="col-2">
+                    <div class="d-flex justify-content-center"> 
+                        <div class="linea-cor"></div>
+                    </div>
+                </div>
+                <div class="col-5 text-center">
+         
+                  <div class="textode">
+                    <h2 class="m-textplus6">FAQs</h2>
+                      <p class="m-textplus3m">Algunas preguntas </p>
+                      <p class="m-textplus3m">que nos hacemos</p>
+                  </div>
+
+                  <div class="visible">
+                    <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+                  </div>
+                  
+                </div>
+              </div>  
+              
+      </div>
+  
+      <div id='container-tri '>
+          <div id="triangle-box" class="d-flex flex-row">
+            <div id="triangle"></div>
+            <div id="triangle2"></div>
+          </div>
+      </div>
+  </div>
   <!-- corbata verde  -->
 
 
@@ -951,14 +1065,21 @@
     </span>
   </div>
 
+  <script type="text/javascript" src="MDB/dist/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="MDB/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="MDB/dist/js/mdb.js"></script>
+  <script type="text/javascript" src="MDB/dist/js/popper.min.js"></script>
+  {{-- <script type="text/javascript" src="/js/pagination.js"></script> --}}
 
-  
+
+
+{{-- 
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/mdb.min.js"></script>  
-  <script type="text/javascript" src="js/general.js"></script> 
+  <script type="text/javascript" src="js/mdb.min.js"></script>  --}}
 
+  <script type="text/javascript" src="js/general.js"></script> 
 
   <script type="text/javascript" src="js/animsition.min.js"></script>
 <!--- cslider con fondo-->
@@ -980,15 +1101,71 @@
             }
         }
     </script>
- <!--- No usos
+
+    <script>
+        /*script de busqueda escribiendo*/
+            // $(document).ready(function () {
+            //     (function ($) {
+            //         $('#filtrar').keyup(function () {
+
+            //               var rex = new RegExp($(this).val(), 'i');
+            //               $('#buscar #busca-tra').hide();
+            //               $('#buscar #busca-tra ').filter(function () {
+            //                   return rex.test($(this).text());
+            //               }).show();
+
+            //         })
+            //     }(jQuery));
+            // });
+
+    </script>
+{{-- gestion años --}}
+  <script>
+    // hide años gestion
+
+  $(document).ready(function(){
+      $("#rot16").hide();
+      $("#rot17").hide();
+      $("#rot18").hide();
+    
+      
+      $("#show-2015").click(function(){
+          $("#rot15").show();
+          $("#rot16,#rot17,#rot18").hide();
+      });
+      $("#show-2016").click(function(){
+          $("#rot16").show();
+          $("#rot15,#rot17,#rot18").hide();
+      });
+      $("#show-2017").click(function(){
+          $("#rot17").show();
+          $("#rot15,#rot16,#rot18").hide();
+      });
+      $("#show-2018").click(function(){
+          $("#rot18").show();
+          $("#rot15,#rot16,#rot17").hide();
+      });
+      
+  });
+  </script>
+
+    <script>
+      (function ($) {
+      $(document).ready(function(){
+        $('#search').keyup(function(){
+            var valThis = $(this).val().toLowerCase();
+              $('.checkGrupo').each(function(){
+                var text = $("label[for='"+$(this).attr('id')+"']").text().toLowerCase();
+                  (text.indexOf(valThis) == 0) ? $(this).parent().show() : $(this).parent().hide();
+                });
+            });
+      
+      });
+      })(jQuery);
+    </script>
 
 
-  <script type="text/javascript" src="js/select2.min.js"></script>
-  <script type="text/javascript" src="js/slick.min.js"></script>
-  <script type="text/javascript" src="js/slick-custom.js"></script>
-  <script type="text/javascript" src="js/countdowntime.js"></script>
-  <script type="text/javascript" src="js/lightbox.min.js"></script>     
-  <script type="text/javascript" src="js/sweetalert.min.js"></script>        conflictos     -->
+
 
 
   <!--efecto slider-->
