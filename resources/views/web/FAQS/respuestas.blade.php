@@ -2,29 +2,14 @@
 
 @section('content')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script>
+	window.onload = function(){
+    document.getElementById("ap08").classList.add("acerr"); 
+	}
+</script>
 
 
 <br><br>
-
-
-
-
-
-
-   
 
 
 

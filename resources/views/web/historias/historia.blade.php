@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-
+<script>
+	window.onload = function(){
+    document.getElementById("ap04").classList.add("acerr"); 
+	}
+</script>
 
 <!--- contenido-->
 
@@ -45,6 +49,7 @@
 
 </div>
 <br><br>
+
 <!-- Parallax 1 -->
 <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax1.jpg);">
   <div class="overlay0 p-t-190 p-b-200">

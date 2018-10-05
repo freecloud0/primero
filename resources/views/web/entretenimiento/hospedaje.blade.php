@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<script>
+	window.onload = function(){
+    document.getElementById("ap03").classList.add("acerr"); 
+	}
+</script>
 <!--Vista 02 ...........................................................................................-->
  <br>
  <br>

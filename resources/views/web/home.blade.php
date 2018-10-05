@@ -2,6 +2,12 @@
 
 @section('content')
 
+<script>
+	window.onload = function(){
+    document.getElementById("ap01").classList.add("acerr"); 
+	}
+</script>
+
 <!--Carousel Wrapper-->
       <br>
 

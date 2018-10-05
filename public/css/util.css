@@ -11223,6 +11223,12 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	display: block;
 	margin: auto;
 }
+
+.acerr{
+	color: #28a745!important;
+	border-bottom: 1px solid #28a745!important;
+}
+
 /* login */
 .linea-recort{
 	outline: 2px dotted red;

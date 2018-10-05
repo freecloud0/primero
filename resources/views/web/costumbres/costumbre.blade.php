@@ -2,7 +2,11 @@
 
 @section('content')
 
-
+<script>
+	window.onload = function(){
+    document.getElementById("ap04").classList.add("acerr"); 
+	}
+</script>
 
 <div class="container">
 	<!-- Projects section v.3 -->

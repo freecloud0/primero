@@ -46,7 +46,7 @@
   <link href="css/style.css" rel="stylesheet">
   
 </head>
-<body class="animsition">
+<body class="animsition about">
   <!-- header fixed -->
   <div class="wrap_header fixed-header2 trans-0-4">
   
@@ -59,10 +59,10 @@
       <nav class="menu">
         <ul class="main_menu">
           <li>
-            <a href="{{ url('/') }}">Inicio</a>
+            <a id="ap01" href="{{ url('/') }}">Inicio</a>
           </li>
           <li>
-            <a href="#">Entretenimiento</a>
+            <a id="ap03" href="#">Entretenimiento</a>
             <ul class="sub_menu">
               <li>
                 <a href="{{ url('hospedaje') }}">Hospedaje</a>
@@ -79,7 +79,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">Historia</a>
+            <a id="ap04" href="#">Historia</a>
             <ul class="sub_menu">
               <li>
                 <a href="{{ url('costumbre') }}">Costumbres</a>
@@ -87,10 +87,10 @@
             </ul>
           </li>
           <li>
-            <a href="{{ url('mapa') }}">Mapas</a>
+            <a id="ap05" href="{{ url('mapa') }}">Mapas</a>
           </li>
           <li>
-            <a href="#">Galeria</a>
+            <a id="ap06" href="#">Galeria</a>
             <ul class="sub_menu">
               <li>
                 <a href="{{ url('galeria') }}">Fotos</a>
@@ -101,7 +101,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a id="ap07" href="#">Blog</a>
             <ul class="sub_menu">
               <li>
                 <a href="{{ url('blog') }}">Noticas</a>
@@ -112,7 +112,7 @@
             </ul>
           </li>
           <li>
-            <a href="{{ url('FAQS') }}">FAQs</a>
+            <a id="ap08" href="{{ url('FAQS') }}">FAQs</a>
           </li>
         </ul>
       </nav>
@@ -124,6 +124,7 @@
         top: 25px;
       }
     </style>
+
     <!-- Header Icon -->
     <div class="header-icons posit" style="">
       <a href="#" class="header-wrapicon1 dis-block">
@@ -192,24 +193,26 @@
 
 
   <!-- top menu -->    
-    <nav class="navbar-expand-md navbar-dark bg0 d-none d-sm-block" style="width: 100%; height: 4%;">
-      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+    <nav id="menuActi" class="navbar-expand-md navbar-dark bg0 d-none d-sm-block" style="width: 100%; height: 4%;">
+      <div id="menuS" class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mx-auto align-baseline">
           <li class="col nav-item active">
-            <a class="text-white" href="{{ url('historia') }}">Historias</a>
+            <a class="text-white historia" href="{{ url('historia') }}">Historias</a>
           </li>
           <li class="col nav-item active  ">
-            <a class="text-white" href="{{ url('mapa') }}">Mapas</a>
+            <a class="text-white mapa" href="{{ url('mapa') }}">Mapas</a>
           </li>
           <li class="col nav-item active  ">
-            <a class="text-white" href="{{ url('blog') }}">Noticas</a>
+            <a class="text-white blog"  href="{{ url('blog') }}">Noticas</a>
           </li>
           <li class="col nav-item active  ">
-            <a class="text-white" href="{{ url('galeria') }}">Galería</a>
+            <a class="text-white galeria"  href="{{ url('galeria') }}">Galería</a>
           </li>
         </ul>
       </div>
     </nav>
+
+
 
   <!-- Header 2-->
   <header class="header2">
@@ -240,16 +243,16 @@
           <nav class="menu p-t-10">
             <ul class="main_menu">
               <li>
-                <a href="{{ url('/') }}">Inicio</a>
+                <a id="ap01" href="{{ url('/') }}">Inicio</a>
               </li>
               <li>
-                <a href="{{ url('gestion') }}">Gestión</a>
+                <a id="ap02" href="{{ url('gestion') }}">Gestión</a>
               </li>
-              <li class="sale-noti">
-                <a href="#">Entretenimiento</a>
+              <li >
+                <a id="ap03" href="#">Entretenimiento</a>
                 <ul class="sub_menu">
                   <li>
-                    <a href="{{ url('hospedaje') }}">Hospedaje</a>
+                    <a  href="{{ url('hospedaje') }}">Hospedaje</a>
                   </li>
                   <li>
                     <a href="{{ url('comida') }}">Comida</a>
@@ -264,16 +267,16 @@
               </li>
 
               <li>
-                <a href="{{ url('historia') }}">Historia</a>
+                <a id="ap04" href="{{ url('historia') }}">Historia</a>
                 
               </li>
 
               <li>
-                <a href="{{ url('mapa') }}">Mapas</a>
+                <a id="ap05" href="{{ url('mapa') }}">Mapas</a>
               </li>
 
               <li>
-                <a href="#">Galería</a>
+                <a id="ap06" href="#">Galería</a>
                 <ul class="sub_menu">
                   <li>
                     <a href="{{ url('galeria') }}">Fotos</a>
@@ -285,7 +288,7 @@
               </li>
 
               <li>
-                <a href="#">Blog</a>
+                <a id="ap07" href="#">Blog</a>
                 <ul class="sub_menu">
                   <li>
                     <a href="{{ url('blog') }}">Noticias</a>
@@ -296,7 +299,7 @@
                 </ul>
               </li>
               <li>
-                <a href="{{ url('FAQS') }}">FAQs</a>
+                <a id="ap08" href="{{ url('FAQS') }}">FAQs</a>
               </li>
             </ul>
           </nav>
@@ -342,7 +345,7 @@
             </li>
 
             <li class="item-menu-mobile">
-              <a href="{{ url('/') }}">Inicio</a>
+              <a  href="{{ url('/') }}">Inicio</a>
             </li>
 
             <li class="item-menu-mobile">
@@ -486,13 +489,8 @@
                   
                   <div class="textoiz">
                     <h2 class="m-textplus6">Blog</h2>
-                    <div class="row">
-                      <div class="col-3"></div>
-                      <div class="col-sm-6">
-                      <p class="m-textplus3m">Tips de turismo</p>
+                      <p class="m-textplus3m d-flexs">Tips de turismo</p>
                       <p class="m-textplus3m">y algo más</p>
-                      </div>
-                    </div>
                   </div>
 
                   <div class="visible">
@@ -1120,6 +1118,9 @@
 
     </script>
 {{-- gestion años --}}
+
+
+
   <script>
     // hide años gestion
 

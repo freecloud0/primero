@@ -2,7 +2,11 @@
 
 @section('content')
 <!--Vista 02 ...........................................................................................-->
-
+<script>
+	window.onload = function(){
+    document.getElementById("ap02").classList.add("acerr"); 
+	}
+</script>
 
   <br>
   <br>

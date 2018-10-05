@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<script>
+	window.onload = function(){
+    document.getElementById("ap06").classList.add("acerr"); 
+	}
+</script>
 
 <div class="visible01">
   <br><br>
